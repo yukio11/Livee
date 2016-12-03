@@ -1,7 +1,6 @@
 class CreateLives < ActiveRecord::Migration
   def change
     create_table :lives do |t|
-      t.integer       :id
       t.string        :title
       t.string        :place
       t.string        :day
