@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  resources :lives, only: :index
+  resources :lives
 end
